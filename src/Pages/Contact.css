@@ -1,0 +1,110 @@
+.all-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin: 10% 0%;
+   
+}
+.adres{
+    margin-left: 10%;
+    font-size:medium;
+    line-height: 5px;
+}
+
+.adres-second p:first-of-type{
+    font-size:xx-small;
+}
+.letter{
+    width: 70%;
+    margin-left: 5%;
+}
+.text-contact{
+    width: 40%;
+    margin-left: 7%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    padding: 10px;
+    width: 110%;
+    height: 90%;
+    color: gray;
+    background-color: rgb(242, 242, 242);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    height: 30px;
+    
+}
+input{
+    border-radius: 30px;
+    border: none;
+    width: 75%;
+    padding: 5px;
+}
+.userInfo1{
+    height: 150px;
+    text-align: start;
+    font-size: small;
+}
+.submit{
+    width: 50%;
+    background-color: rgb(65, 184, 65);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60%;
+    margin-left: 25%;
+    cursor: pointer;
+    
+}
+@media (max-width:700px){
+    form{
+        width: 100%;
+        font-size: small;
+        margin-top: 30px;
+    }
+    .adres{
+font-size: small;
+    }
+
+}
+@media (max-width:430px){
+.all-contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:40px 0px
+
+}
+.text-contact{
+    width: 70%;
+    
+}
+.adres{
+    font-size:smaller;
+}
+
+    form{
+    width: 80%;
+    margin-left: 12%;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    margin-bottom: 0%;
+}
+
+
+}
