@@ -1,0 +1,125 @@
+.shadou{
+    width: 100%;
+    position: absolute;
+}
+.info-footer{
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    margin: auto;
+    padding: auto;
+}
+.info-footer img:first-of-type{
+    width: 20%;
+    margin-top: -8%;
+    margin-left: 2%;
+
+}
+.info-footer img:last-of-type{
+    width: 20%;
+    margin-left: 0%;
+    margin-top: 2%;
+}
+.icon-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 35px;
+    margin: 0 auto;
+}
+
+.all-summary{
+   display: flex;
+    flex-direction: row;
+    color: gray;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+}
+.hop-soft, .drivers, .contact-us{
+    line-height: 10px;
+    height: 370px;
+    margin: 7% 0% 6% 0%;
+    padding: 0px;
+}
+.hop-soft, .drivers{
+    width: 200px;
+}
+.link-footer{
+    width: 100%;
+    color:white;
+    background-color: rgb(65, 184, 65);
+    height: 40px;
+    margin:auto;
+    padding: 10px 0px 0px 0px;
+}
+.link-footer p{
+    margin-left: 15%;
+align-items: center;
+}
+.logs-footer{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    margin:-30px 0px 10px 60%;
+    padding: 7px;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    border-radius: 35px;
+}
+
+.img-footer{
+    width: 100%;
+    height: 40vh;
+    min-height: 250px;
+}
+
+@media (max-width:740px){
+    
+    .info-footer img:last-of-type{
+        width: 30%;
+        margin-top: 20px;margin-bottom: 30px;
+    }
+   .all-summary{
+        display:flex;
+        flex-direction: row;
+        font-size: xx-small;
+        margin: auto;
+        height: 300px;
+    }
+   .all-footer{
+        width: 100%;
+    }
+    .logs-footer{
+        display: flex;
+        margin: auto;
+        margin-left: 20vh;
+        max-width: 180px;
+        width: 30%;
+        padding: 10px;
+        margin-top: -5px;
+        margin-left: 60%;
+    }
+    .icon-footer{
+        max-width: 30px;
+        height:25px ;
+    }
+    .img-footer{
+        width: 100%;
+        height: 20vh;
+        min-height: 150px;
+        margin: auto;
+        display: flex;
+    }
+    .link-footer{
+        font-size:smaller;
+        margin-top: -40px;
+    }
+    .link-footer p{
+        margin-left: 4%;
+    }
+
+}
