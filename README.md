@@ -6,6 +6,7 @@
 - npm install react-router-dom@6 ,push enter
 - npm start ,push enter
 
+#Page preview
 
 ![preview1](https://user-images.githubusercontent.com/127226529/232816809-06eb7778-49ea-4117-90e9-70cba2381fa3.png)
 
